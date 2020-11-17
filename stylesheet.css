@@ -2,7 +2,7 @@ div.box {
     border: 4px solid rgb(197, 48, 48);
     background-color: rgb(47, 145, 96);
   }
-  @media screen and (max-width: 1068px){
+  @media screen and (max-width: 1024px){
     div.box {
       background-color: rgb(10, 25, 158);
     }
@@ -10,7 +10,7 @@ div.box {
       content: ' (tablet)'
     }
   }
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 760px){
     div.box {
       background-color: rgb(241, 18, 167);
     }
