@@ -4,17 +4,19 @@ div.box {
   }
   @media screen and (max-width: 1024px){
     div.box {
+      border: 0PX;
       background-color: rgb(10, 25, 158);
     }
     div.box::after {
-      content: ' (tablet)'
+      content: ' (laptop)'
     }
   }
   @media screen and (max-width: 760px){
     div.box {
+      border: 10px solid coral;
       background-color: rgb(241, 18, 167);
     }
     div.box::after {
-      content: ' (mobile)'
+      content: ' (tablet)'
     }
   }
