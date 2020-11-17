@@ -1,0 +1,5 @@
+div.box {
+    border: 1px solid rgb(197, 48, 48);
+    background-color: rgb(47, 145, 96);
+    transition: background-color 2000ms linear 50ms;
+  }
